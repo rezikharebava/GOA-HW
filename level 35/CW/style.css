@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/potos/download.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    text-shadow: 10cm;
+    font-size: 19px;
+    margin-right: 60%;
+}

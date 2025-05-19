@@ -1,0 +1,54 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(213, 44%, 95%);
+}
+
+.container{
+    background-image: url(./../images/drawers.jpg);
+    background-color: hsl(0, 0%, 100%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 800px;
+    height: 300px;
+    margin-top: 10%;
+}
+
+h1{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: hsl(214, 7%, 42%);
+    margin-left: 50%;
+    font-size: 23px;
+    margin-top: 4%;
+}
+
+.p-1{
+    color: hsl(213, 15%, 76%);
+    font-weight: 400;
+    margin-left: 50%;
+    margin-top: 4%;
+}
+
+.p-2{
+    margin-left: 58%;
+    margin-bottom: 8%;
+}
+
+.number{
+    margin-left: 58%;
+    margin-bottom: 10%;
+}
+
+img{
+    border-radius: 50%;
+    margin-left: 50%;
+    height: 40px;
+    margin-top: 4%;
+}

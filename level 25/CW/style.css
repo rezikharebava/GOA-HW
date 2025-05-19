@@ -1,0 +1,14 @@
+body{
+    background-color:aqua ;
+    text-align: center;
+ }
+ div,p{
+    color: black;
+ }
+ footer {
+    background-color: #f2e5d5; 
+    color: #654321; 
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+ }

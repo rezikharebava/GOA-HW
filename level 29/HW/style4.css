@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "mtavruli";
+    src: url("./mtvaruli/3d_unicode_[FONTS.GE]\ \(1\)/.Nino-mtavruli-font");
+}
+.Nino-mtavruli-font{
+    font-family: "mtavruli";
+    
+}
+body{
+    background-color: rgb(0, 166, 243);
+}
+.h-1{
+    text-align: center;
+}

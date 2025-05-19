@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo Elements Example</title>
+  <style>
+    .content {
+      font-size: 60px;
+      font-weight: bold;
+      position: relative;
+      display: inline-block;
+      background: white;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .content::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: red;
+      margin-right: 8px;
+    }
+
+    .content::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: blue;
+      margin-left: 8px;
+    }
+
+    body {
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">rezi</div>
+
+</body>
+</html>

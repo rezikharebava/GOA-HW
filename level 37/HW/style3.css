@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/potos/download\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.card{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+    margin-top: 10%;
+}

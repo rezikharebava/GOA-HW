@@ -1,0 +1,13 @@
+
+body{
+    font-family: sans-serif;
+    height: 100vvh;
+    background-image: linear-gradient(80deg, rgb(116, 2, 2)rgb(0, 0, 0));
+}
+input[type="text"]{
+    padding: 10PX 15PX;
+    outline: none;
+    border: 3px solid rgb(3, 252, 252);
+    border-radius: 5px;
+    background-image: linear-gradient(100deg, rgb(3, 165, 3) rgb(92, 66, 18));
+}

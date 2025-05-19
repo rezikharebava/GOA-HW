@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-1{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-top: 10px solid rgb(255, 145, 0);
+    border-left: 10px solid rgb(255, 0, 0);
+    border-right: 10px solid rgb(60, 112, 69);
+    border-bottom: 10px solid rgb(255, 0, 0);
+    background-color: black;
+}

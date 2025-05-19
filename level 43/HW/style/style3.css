@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background-image:linear-gradient(rgb(255, 0, 242) rgb(238, 255, 0)) ;
+}
+
+input[type="text"]{
+    padding: 10px 15px;
+    outline: none;
+    border: 2px solid rgb(127, 255, 212);
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 166, 0) rgb(250, 88, 115));
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#link:link{
+    color: blueviolet;
+    font-size: 35;
+}
+
+
+#visited:visited{
+    color: cadetblue;
+}
+
+
+#active:active{
+    color: rgb(219, 110, 31);
+}
+
+
+#hover:hover{
+    color: crimson;
+    font-weight: 100;
+}
+
+a{
+    text-decoration:none;
+}

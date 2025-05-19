@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    margin-top: 50px;
+    margin-right: 60px;
+    bottom: 70px;
+    padding-top: 50px;
+    padding-right: 60px;
+    border: 10px solid rgb(77, 0, 201);
+}

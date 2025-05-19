@@ -1,0 +1,70 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    display: flex;
+    background-color: hsl(0, 0%, 8%);
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    justify-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 650px;
+    width: 400px;
+    margin-top: 6%;   
+}
+
+img{
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 50%;
+    height: 100px;
+}
+
+h1{
+    color:  hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-top: 4%;
+    font-size: 28px;
+}
+
+.p-1{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    margin-top: 3%;
+    font-size: 14px;
+}
+
+.p-2{
+    font-family: "Inter", sans-serif;
+    margin-top: 10%;
+    font-size: 14px;
+    color: hsl(0, 0%, 54%);
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    gap: 20px;
+}
+
+.b-1{
+    width: 300px;
+    height: 45px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: hsl(0, 0%, 87%);
+    font-weight: 900;
+}
+
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+}

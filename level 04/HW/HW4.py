@@ -1,0 +1,23 @@
+name=input("enter name: ")
+print(name)
+last_name=input("enter last_name")
+print(last_name)
+age=input("enter age: ")
+print(age)
+first=input(54-24)
+second=input(35+64)
+first=input(40/20)
+second=input(47*37)
+user = input("enter your name: ")
+print(user)
+math = 20 + 20
+math = math - 10
+math = math * 2
+academy=input("enter academy: ")
+print(academy)
+school=input("enter school: ")
+print(school)
+name=input("enter name: ")
+print(name)
+last_name=input("enter last_name: ")
+print(last_name)

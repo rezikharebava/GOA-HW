@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    max-width: fit-content;
+    margin: 0 auto;
+    
+    border-radius: 100% 100% 0 0;
+    border: 10px solid rgb(174, 0, 255);
+    border-width: 100px;
+}

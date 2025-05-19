@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(20, 21, 25);
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 3PX solid white;
+}
+.container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+

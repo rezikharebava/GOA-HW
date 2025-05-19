@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url(./reset.css);
+body{
+    display: flex;
+    background-color: hsl(28, 41%, 92%);
+}
+.container{
+    background-image: url(./../images/image-product-desktop.jpg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 380px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.h1{
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    margin-left: 58%;
+    margin-top: 5%;
+}
+.h2{
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    margin-left: 58%;
+    margin-top: 3%;
+}
+.p{
+    font-family: "Montserrat", serif;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+.h3{
+    font-size: 30PX;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+.h3 strong{
+    font-family: "Montserrat", serif;
+    font-size: 15PX;
+    margin-left: 13%;
+    text-decoration: line-through;
+}
+.cart{
+    font-size: 16px;
+    border-radius: 10px;
+    width: 45%;
+    height: 15%;
+    margin-left: 58%;
+    margin-top: 6%;
+    background-color: hsl(156, 42%, 18%);
+    color: white;
+    background-image: url(./../images/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 15%;
+}

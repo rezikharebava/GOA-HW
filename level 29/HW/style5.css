@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "mtvaurli";
+    src: url("./fonts/mtvaruli/3d_unicode_[FONTS.GE]\ \(1\)/.mtvaruli-font");
+}
+body{
+    background-color: rgb(39, 68, 80);
+    text-align: center;
+}
+
+.mtvaruli-font{
+    font-family: "mtvaruli";
+}

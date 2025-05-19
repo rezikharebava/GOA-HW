@@ -1,0 +1,36 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.container{
+    height: 100vh; 
+    background-color: #9160b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.w-1{
+    width: 300px;
+}
+.w-2{
+    width: 350px;
+}
+.hidden{
+    background-color: transparent;
+}
+.blue-box{
+    height:350px;
+    width: 100px;
+    background-color: transparent;
+    border: 10px solid #05a4e8;
+}

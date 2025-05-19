@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+.container {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -100px;
+    text-align: center;
+  }
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+
+.container p {
+    font-size: 18px;
+    margin-top: 10px;
+  }

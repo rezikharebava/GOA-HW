@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: sans-serif;
+ }
+
+table{
+    border-collapse: collapse;
+    width: 30%;
+}
+
+tr:nth-(:first-child):hover{
+    background-color: rgb(243, 243, 243);
+}
+
+tr:nth-child(1){
+    background-color: rgb(245, 245, 245);
+    color: white;
+}
+
+tr{
+    background-color: rgb(221, 221, 221);
+    border-bottom: rgb(1, 152, 122);
+}

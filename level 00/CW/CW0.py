@@ -1,0 +1,76 @@
+from turtle import *
+
+#we want to paint a houes
+
+#step 1: draw  a square
+speed()
+width(7)
+color("purple")
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+
+forward(200)
+left(90)
+#end of squere
+
+#drawing a door
+
+forward(70)
+color("yellow")
+begin_fill()
+left(90)
+forward(120)
+right(90)
+forward(60)
+right(90)
+forward(120)
+end_fill()
+
+penup()
+goto(200, 200)
+pendown()
+
+color("red")
+begin_fill()
+right(150)
+forward(200)
+left(120)
+forward(200)
+end_fill()
+color("purple")
+left(390)
+forward(100)
+left(90)
+forward(50)
+right(90)
+forward(50)
+right(90)
+forward(50)
+penup()
+goto(200, 100)
+pendown()
+forward(50)
+left(90)
+forward(50)
+left(90)
+forward(50)
+penup()
+goto(-470, -395)
+pendown()
+color("green")
+begin_fill()
+forward(940)
+left(90)
+forward(387)
+left(90)
+forward(940)
+left(90)
+forward(380)
+end_fill()
+exitonclick()

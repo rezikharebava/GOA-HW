@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    gap: 10px;
+}
+.div{
+    border: 1px solid aqua;
+    background-color: aqua;
+    text-align: center;
+    font-size: 200%;
+    width: 100px;
+    height: 100px;
+}

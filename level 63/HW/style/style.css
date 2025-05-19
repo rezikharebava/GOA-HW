@@ -1,0 +1,48 @@
+body {
+    background: #f0f0f0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 250px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.card.zoom:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+.card.rotate:hover {
+    transform: rotate(5deg);
+    background-color: #ffeaa7;
+}
+
+
+.card.color-fade {
+    background-color: #dfe6e9;
+    transition: background-color 0.5s ease;
+}
+
+.card.color-fade:hover {
+    background-color: #74b9ff;
+    color: white;
+}

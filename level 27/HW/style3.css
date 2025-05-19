@@ -1,0 +1,25 @@
+body{
+    background-color: hsl(89, 21%, 29%);
+}
+.h{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 10px 3px 5px rgb(228, 133, 133);
+    color:rgb(6, 6, 77);
+}
+#p{
+    font-weight: 900;
+    text-transform: uppercase;
+    color:rgba(10, 252, 175, 0.804);
+}
+img{
+    border: 10px solid black;
+    width: 500px;
+    height: 500px;
+}
+.img2{
+    margin-left: 50px;
+    width: 50%;
+} 

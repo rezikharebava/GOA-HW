@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.box {
+  background-color: #90EE90;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+.box-2 {
+  width: 160px;
+}
+
+.box-3 {
+  width: 240px;
+}

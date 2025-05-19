@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(rgb(176, 245, 1), green);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 20px;
+    background-image: url('./assets/potos/download\ \(13\).jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.gap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: rgb(90, 60, 60);
+    width: 300px;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 30px;
+    margin-left: 40%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 195px 2.6;
+}
+.card p{
+    color: greenyellow;
+}

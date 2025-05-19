@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    max-width: fit-content;
+    margin: 0 auto;
+}
+.b{
+    border-radius: 100% 100% 0 0;
+    border: 10px solid rgb(255, 0, 128);
+    border-width: 100px;
+    border-bottom: 100px solid #d2d7da;
+    margin-left : 35px;
+    color: rgb(0, 255, 106);
+    padding: 65px 10px 55px 60px;
+}

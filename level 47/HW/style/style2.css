@@ -1,0 +1,43 @@
+body {
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.w {
+  width: 200px;
+  height: 200px;
+
+  background-color: rgb(255, 255, 255);
+
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.first, .q {
+  width: 200px;
+  height: 200px;
+
+  background-color: rgb(255, 255, 255);
+
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.t {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: auto;
+}

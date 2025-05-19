@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url(./assets2/potos/download2.jpg);
+    background-size: cover;
+}
+.img{
+    background-image: url(./assets2/potos/download3.jpg);
+    background-size: cover;
+    background-position: -25px 0px;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

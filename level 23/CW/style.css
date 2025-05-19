@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(9, 81, 204);
+    border: 1px double aquamarine;
+}
+
+.p-1{
+    font-style: italic;
+    color: rgb(4, 4, 14);
+}

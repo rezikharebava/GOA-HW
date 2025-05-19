@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background: rgb(155, 0, 245);
+    border: 2px solid rgb(0, 255, 149);
+    border-radius: 15px;
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #ffffff;
+            height: 100vh;
+        }
+        .card {
+            width: 800px;
+            height: 300px;
+            margin: auto;
+            margin-bottom: 20px;
+            background: #0fb2cf;
+            border-radius: 10px;
+            box-shadow: 0 0 1px 1px rgb(255, 0, 0);
+            animation: bounce 2s cubic-bezier(.25, 1.56, .31, .5) 1;
+
+        }
+        @keyframes bounce {
+            0% {
+                transform:  rotateY(100deg);
+                opacity: 0;
+            }
+            25% {
+                transform: rotateY(100deg);
+                background: black;
+            }
+            40% {
+                transform:  rotateX(200deg);
+                background: red;
+            }
+            87% {
+                transform: translate(0, 0);
+                background: #0fb2cf;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card"></div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მომხმარებლის ფორმა</title>
+</head>
+<body>
+
+<h2>მომხმარებლის ფორმა</h2>
+
+<form action="/submit-data" method="POST">
+    
+    <label for="first-name">სახელი:</label><br>
+    <input type="text" id="first-name" name="first-name" required><br><br>
+
+    <label for="last-name">გვარი:</label><br>
+    <input type="text" id="last-name" name="last-name" required><br><br>
+
+    <label for="age">ასაკი:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label for="gender">სქესი:</label><br>
+    <input type="radio" id="male" name="gender" value="მამრობითი" required>
+    <label for="male">მამრობითი</label><br>
+    <input type="radio" id="female" name="gender" value="მდედრობითი" required>
+    <label for="female">მდედრობითი</label><br><br>
+
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">ვეთანხმები პირობებს</label><br><br>
+
+    <button type="submit">გაგზავნა</button>
+</form>
+
+</body>
+</html>
+
+<!-- დავალება 2-->
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+</head>
+<body>
+    <label for="საყვარელი ფილმი">საყვარელი ფილმი</label>
+    <select name="ფილმები" id="ფილმები არჩევანი">
+        <option value="marvel films">marvel films</option>
+        <option value="spider-man">spider-man</option>
+        <option value="iron-man">iron-man</option>
+        <option value="captin_america">captin_america</option>
+   
+    </select>
+        
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>
+</head>
+<html>
+    <body>
+        <label for="საყვარელი ფილმი">საყვარელი ფილმი</label>
+        <select name="ფილმები" id="ფილმები არჩევანი">
+            <option value="marvel films">marvel films</option>
+            <option value="spider-man">spider-man</option>
+            <option value="iron-man">iron-man</option>
+            <option value="captin_america">captin_america</option>
+   
+       </select>
+        
+    </body>
+</html>

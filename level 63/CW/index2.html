@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .hand-wave-container{
+            animation-name: hand-wave 5s l infinite;
+        }
+        @keyframes hand-waveა{
+            0%{
+                transform: rotate(0deg);
+            }
+            30%{
+                transform: rotate(-30deg);
+            }
+            50%{
+                transform: rotate(40deg);
+            }
+            70%{
+                transform: rotate(30deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hand-wave-container">
+        🤚
+    </div>
+</body>
+</html>

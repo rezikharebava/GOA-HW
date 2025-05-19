@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url("./fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth\,wght.ttf");
+
+    font-family: "Oswald";
+    src: url("./fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+body{
+    background-color: rgb(255, 2, 53);
+}  
+.Oswa-1 {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+
+.Noto-1 {
+    font-family: "Noto Sans";
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: 100;
+}
+img{
+    width: 700px;
+    margin-bottom: auto;
+}

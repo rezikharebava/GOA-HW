@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(210deg, rgba(0, 238, 255), rgba(87, 190, 255, 0.74) 40%),
+                        linear-gradient(40deg, rgba(162, 173, 184, 0.733), rgba(1, 5, 6, 0.8) 60%),
+                        linear-gradient(90deg, rgba(113, 255, 255), rgba(156, 205, 230, 0.616) 40%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 42;
+    color: cornflowerblue;
+}
+.card{
+    background-image: linear-gradient(210deg, rgba(0, 255, 225), rgba(0, 157, 255) 40%),
+                        linear-gradient(40deg, rgba(23, 61, 99, 0.9), rgba(0, 61, 77, 0.8) 60%),
+                        linear-gradient(90deg, rgba(0, 64, 255), rgba(0, 36, 196) 40%);                   
+    background-size: cover;
+    border-radius: 20px ;
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+    margin-top: 10%;
+    
+}
+p{
+    color: rgb(0, 0, 0);
+}

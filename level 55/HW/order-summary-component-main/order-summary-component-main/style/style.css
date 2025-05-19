@@ -1,0 +1,85 @@
+@import url(./style.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(./../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    background-image: url(./../images/illustration-hero.svg);
+    background-size: contain;
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    width: 500px;
+    height: 690px;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 55%;
+}
+
+p{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 26px;
+    max-width: 600px;
+    font-weight: lighter;
+    text-align: center;
+    color: hsl(232, 11%, 60%);
+}
+
+
+img{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.plan-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 370px;
+    margin-left: 45px;
+    font-family: Arial, sans-serif;
+}
+.plan-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+span{
+    color: hsl(224, 23%, 81%);
+}
+
+button{
+    font-family: "Red Hat Display", sans-serif;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(240, 100%, 99%);
+    width: 400px;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+.str-1{
+    font-family: "Red Hat Display", sans-serif;
+    text-align: center;
+    margin-left: 40%;
+    color: hsl(232, 11%, 60%);
+}

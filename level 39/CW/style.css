@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+div{
+    text-align: center;
+}
+
+
+
+ul{
+    margin-left: 50px;
+    list-style-type: square;
+    list-style-image: url(./assets/potos/download\ \(8\).jpg);
+    list-style-position: inside;
+}
