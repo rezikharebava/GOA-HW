@@ -1,24 +1,58 @@
-.margin-center{
+.margin-center {
     margin: 0 auto;
     max-width: 1200px;
 }
-body{
-    background-color: (247,247,247);
+
+body {
+    background-color:black;
 }
-header div{
+
+.header-container {
     display: flex;
     justify-content: space-between;
-
-    
+    padding: 20px;
+    position: relative;
+    font-size: 18px;
 }
-header{
+
+.bg-blur {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+header {
     position: fixed;
     width: 100%;
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1;
 }
-header ul{
-    display: flex;
 
+header ul {
+    display: flex;
+    gap: 20px;
+
+}
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#home video {
+    width: 100%;
+    height: 100vh;
+    margin-top: -15;
+    scale: 1.2;
 }

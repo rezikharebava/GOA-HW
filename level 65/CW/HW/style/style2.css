@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: "Popins" sans-serif;
+}
+
+.box-layout{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 80px;
+    text-align: center;
+    line-height: 190px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
