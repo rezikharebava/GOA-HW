@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const points = [10, 30, 5, 2, 99];
+
+
+        points.push(50);
+        console.log(points);
+
+
+        const popped = points.pop();
+        console.log(popped);
+        console.log(points);
+
+
+        const shifted = points.shift();
+        console.log(shifted);
+        console.log(points);
+
+
+        points.unshift(77);
+        console.log(points);
+
+        const joined = points.join(" - ");
+        console.log(joined);
+
+
+        const asString = points.toString();
+        console.log(asString);
+
+        const morePoints = [1, 2, 3];
+        const combined = points.concat(morePoints);
+        console.log(combined);
+    </script>
+</body>
+
+</html>
