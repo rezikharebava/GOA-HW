@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.post {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+.description {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post img,
+.post video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.comment-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.comment-btn {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.comment-btn:hover {
+    background-color: #0056b3;
+}
+
+.comments-section {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.comments-section p {
+    background: #eef;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.text-white {
+    color: white;
+}
+
+.lighter {
+    background-color: #121212;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.bnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bnav nav ul li {
+    list-style: none;
+}
+
+.bnav nav ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+.bnav nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(214, 214, 214);
+    border-radius: 10px;
+}
+
+.bnav nav ul li a:hover {
+    background-color: rgb(196, 196, 196);
+}

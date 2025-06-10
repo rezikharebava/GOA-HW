@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ['apple', 'banana', 'cherry', 'date', 'fig', 'grape', 'kiwi'];
+        let removed = arr.splice(2, 3);
+        console.log(removed);
+
+        let sliced = removed.slice(0, 2);
+        console.log(sliced); 
+
+        sliced.push('hello');
+        console.log(sliced);
+    </script>
+</body>
+</html>

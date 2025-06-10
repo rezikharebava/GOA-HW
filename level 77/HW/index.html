@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let arr = [10, 20, 30, 40, 50];
+        arr.splice(1, 3);
+        console.log("Updated array:", arr);
+        
+        let arr2 = [10, 20, 30, 40, 50];
+        let sliced = arr2.slice(2, 4);
+        console.log("Sliced elements:", sliced);
+
+        sliced.splice(1, 0, 60, 70);
+        console.log("Modified sliced:", sliced);
+    </script>
+</body>
+
+</html>

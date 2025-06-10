@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>click</button>
+    <script>
+        const btn = document.querySelector("button");
+        btn, addEventListener("click", () => {
+            console.log("arrow >>>>> rezi")
+        });
+
+        const body = document.getElementById("body")
+        console.log(body)
+
+        function bgchange() {
+            body.style.background = "aqua"
+        }
+
+        function cars() {
+            return "R35"
+        }
+
+        console.log(cars());
+        const myArrowcars = () => " arrow => R35 v1";
+        const myArrowcars1 = (name) => (
+            "arrow => R35 v2"
+        );
+
+        const myArrowcars2 = () => {
+            let name = "R34";
+            return (
+                "arrow =>R34 v3"
+            )
+        }
+
+        console.log(myArrowcars())
+        console.log(myArrowcars1())
+        console.log(myArrowcars2())
+    </script>
+</body>
+
+</html>
