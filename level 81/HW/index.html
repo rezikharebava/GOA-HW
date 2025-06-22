@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>დავალებები</title>
+  <style>
+    .odd {
+      color: red;
+    }
+
+    .even {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <script>
+    // HW 1
+    const ul1 = document.createElement('ul');
+    const itemCount = 15; 
+
+    for (let i = 0; i < itemCount; i++) {
+      const li = document.createElement('li');
+      li.textContent = `Item ${i}`;
+      ul1.appendChild(li);
+    }
+    document.body.appendChild(ul1);
+
+    // HW 2
+    const div2 = document.createElement('div');
+    for (let i = 1; i <= 5; i++) {
+      const p = document.createElement('p');
+      const size = 12 + i * 2;
+      const color = `rgb(${i * 40}, ${100 + i * 20}, ${200 - i * 30})`;
+      p.textContent = `Text element ${i}`;
+      p.setAttribute("style", `font-size: ${size}px; color: ${color};`);
+      div2.appendChild(p);
+    }
+    document.body.appendChild(div2);
+
+    // HW 3
+    const div3 = document.createElement('div');
+    const p1 = document.createElement('p');
+    const p2 = document.createElement('p');
+    const p3 = document.createElement('p');
+    p1.textContent = "First paragraph";
+    p2.textContent = "Second paragraph";
+    p3.textContent = "Third paragraph";
+    div3.appendChild(p1);
+    div3.appendChild(p2);
+    div3.appendChild(p3);
+    document.body.appendChild(div3);
+
+    const button = document.createElement('button');
+    button.textContent = "Remove First Child";
+    button.onclick = () => {
+      if (div3.firstChild) {
+        div3.removeChild(div3.firstChild);
+        alert("Child removed!");
+      }
+    };
+    document.body.appendChild(button);
+
+    // HW 4
+    const ul4 = document.createElement('ul');
+    for (let i = 0; i < 5; i++) {
+      const li = document.createElement('li');
+      li.textContent = `I am list item ${i}`;
+      const className = i % 2 === 0 ? 'even' : 'odd';
+      li.classList.add(className);
+      ul4.appendChild(li);
+    }
+    document.body.appendChild(ul4);
+
+    // HW 5
+    const p5 = document.createElement('p');
+    p5.textContent = "Original paragraph";
+    document.body.appendChild(p5);
+
+    const cloned = p5.cloneNode(true);
+    cloned.textContent = "Cloned paragraph";
+    cloned.style.color = 'green';
+    document.body.appendChild(cloned);
+
+  </script>
+
+</body>
+</html>

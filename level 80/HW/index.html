@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Layout</title>
+    <style>
+        header {
+            background: linear-gradient(135deg, #1a1a40, #4a47a3);
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            color: aqua;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .nav-center {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: aqua;
+            font-weight: 500;
+        }
+
+        .call-icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Logo</div>
+            
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="#">მთავარი</a></li>
+                    <li><a href="#">ჩვენს შესახებ</a></li>
+                    <li><a href="#">სერვისები</a></li>
+                    <li><a href="#">კონტაქტი</a></li>
+                </ul>
+            </div>
+            
+            <img src="./assets/img/Icon+bg.png" alt="Call Icon" class="call-icon">
+        </nav>
+    </header>
+</body>
+
+</html>

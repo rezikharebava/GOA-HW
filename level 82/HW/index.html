@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: sans-serif;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .grid-item {
+        padding: 20px;
+        text-align: center;
+    }
+
+    @media (min-width: 320px) {
+        .grid-container {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+</style>
+
+<body class="bg-[url('./assets/img/img.png')] bg-no-repeat bg-position-[top_400px_left_50px]">
+    <div class="grid-container">
+        <div class="flex w-300 justify-self-center ">
+            <div class="grid-item">
+                <img src="./assets/img/Icon+ text.png" alt="" class=" w-300 h-40">
+                <p class="text-[16px] text-center font-normal mt-10">Diam tincidunt tincidunt erat at semper fermentum.
+                    Id ultricies quis</p>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img/Icon+ text (1).png" alt="" class=" w-300 h-40">
+                <p class="text-[16px] text-center font-normal mt-10">Gravida auctor fermentum morbi vulputate ac egestas
+                    orcietium convallis</p>
+            </div>
+            <div class="grid-item">
+                <img src="./assets/img/Icon+ text (2).png" alt="" class=" w-300 h-40">
+                <p class="text-[16px] text-center font-normal mt-10 ">Pretium convallis id diam sed commodo vestibulum
+                    lobortis volutpat</p>
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+</body>
+
+</html>
