@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme{
+      --color-black: var(--black);
+
+      --spacing-base-12: 12px;
+      --spacing-base-20: 20px;
+      --spacing-base-28: 28px;
+      --spacing-base-40: 40px;
+      --spacing-base-72: 72px;
+    }
+      /* utility */
+      .container{
+        @apply max-w-[1440px] mx-auto px-base-72 py-base-28;
+      }
+    
+    :root{
+        --black: rgb(0, 0, 0);
+    }
+  </style>
+
 </head>
+
 <body>
-    <header class="flex items-center justify-between px-6 py-3 border-b shadow-sm">
-        <div class="flex items-center space-x-2">
-          <img src="./assets/img/car(3) 1.png" alt="Car icon" class="w-6 h-6">
-          <span class="text-lg font-semibold">Car Rental</span>
-        </div>
-
-        <nav class="flex items-center space-x-6 text-sm">
-            <span class="text-gray-700">Home</span>
-
-          <a href="#" class="font-bold text-black">Vehicles</a>
-          <a href="#" class="text-gray-700">Details</a>
-          <a href="#" class="text-gray-700">About Us</a>
-          <a href="#" class="text-gray-700">Contact Us</a>
-        </nav>
-
-
-        <div class="flex items-center">
-          <img src="./assets/img/Icon+bg.png" alt="Phone icon" class="w-10 h-10"> 
-          <div class="text-sm">
-          </div>
-        </div>
-      </header>
+  <header class="text-black container flex justify-between items-center">
+    <a href="#<a href=""></a>" class="flex items-center gap-base-12 font-bold">
+      <img src="./assets/img/car(3) 1.png" alt="car icon">
+      <span class="font-bold">Car Rental</span>
+    </a>
+    <nav>
+      <ul class="flex gap-base-20 *:[li]:hover:font-bold transition-">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Vehicles</a></li>
+        <li><a href="#">Details</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="flex gap-base-12 items-center">
+      <img class="size-base-40" src="./assets/img/Icon+bg.png" alt="call">
+      <h2>need help?</h2>
+      <a href="tel:+9962471680" class="font-bold">+996 247-1680</a>
+    </div>
+  </header>
 </body>
+
 </html>
