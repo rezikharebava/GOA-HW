@@ -1,1 +1,118 @@
-<!-- ქალაქიდან გასული ვიყავი და ვერ მოვასწარი გაკეთება -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>მიმდინარე თარიღი და დრო:</h2>
+    <p id="dateInfo"></p>
+
+    <h2>🎄 ახალ წლამდე დარჩენილია:</h2>
+    <p id="newYear"></p>
+
+    <h2>🕊️ გიოგობამდე დარჩენილია:</h2>
+    <p id="giorgoba"></p>
+
+    <h2>🌿 ბარბარობამდე დარჩენილია:</h2>
+    <p id="barbaroba"></p>
+
+    <script>
+        let greeting = "Hello World!";
+        let newGreeting = greeting;
+        console.log(newGreeting)
+        // ----------------------------------------
+        let Favorite_month = Number(prompt("Enter your favorite month 1-Oct, 2-Feb, 3-May, 4-Dec, 5-Jul "));
+        console.log(Favorite_month)
+
+        switch (Favorite_month) {
+            case 1:
+                console.log("Oct --> 1");
+                break;
+            case 2:
+                console.log("Feb --> 2");
+                break;
+            case 3:
+                console.log("May --> 3");
+                break;
+            case 4:
+                console.log("Dec --> 4");
+                break;
+            case 5:
+                console.log("Jul --> 5");
+                break;
+        }
+        // ----------------------------------------
+        let age = 20
+        console.log(age > 18 ? "Adult" : "Minor");
+        // ----------------------------------------
+        console.log(Math.round(Math.random() * 100));
+        const date = new Date();
+        const day = date.getDay()
+        const FullYear = date.getFullYear()
+        const dateCurrent = date.getDate()
+
+        console.log(new Date())
+        console.log(day)
+        console.log(FullYear)
+        console.log(dateCurrent)
+
+
+        const div = document.createElement("div")
+        document.body.appendChild(div);
+        setInterval(() => {
+            const date = new Date();
+            const day = date.getDay()
+            div.innerHTML = date;
+        }, 1000);
+        // ----------------------------------------
+
+        function updateCountdowns() {
+            // ვღებულობთ მიმდინარე დროს
+            var now = new Date();
+
+            // ვქმნით სამ მიზნობრივ თარიღს
+            var currentYear = now.getFullYear();
+
+            var newYear = new Date(currentYear + 1, 0, 1);          
+            var giorgoba = new Date(currentYear, 10, 23);           
+            var barbaroba = new Date(currentYear, 11, 17);          
+
+            // თუ თარიღი უკვე გავიდა წელს, დავამატოთ +1 წელი
+            if (now > giorgoba) {
+                giorgoba = new Date(currentYear + 1, 10, 23);
+            }
+            if (now > barbaroba) {
+                barbaroba = new Date(currentYear + 1, 11, 17);
+            }
+
+            // ვთვლით დარჩენილ მილიწამებს
+            function getTimeDiff(targetDate) {
+                var diff = targetDate - now;
+
+                var days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                return days + " დღე, " + hours + " საათი, " + minutes + " წუთი, " + seconds + " წამი";
+            }
+
+            // ჩავსვათ HTML-ში
+            document.getElementById("newYear").innerHTML = getTimeDiff(newYear);
+            document.getElementById("giorgoba").innerHTML = getTimeDiff(giorgoba);
+            document.getElementById("barbaroba").innerHTML = getTimeDiff(barbaroba);
+        }
+
+        // პირველი გაშვება
+        updateCountdowns();
+
+        // განახლება ყოველ წამში
+        setInterval(updateCountdowns, 1000);
+    </script>
+</body>
+
+</html>
